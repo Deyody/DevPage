@@ -4,9 +4,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Page 4</title>
 <link rel="stylesheet" href="htmltestpage4.css">
-<head>
+<head><h1>Most of this will be a Journal/Assignments from TOP I imagine.</h1></head>
 <body>
-    
+    <ol class="odd-list">
+        <li>This is a list, which by using the nth-child(odd), the off numbered lines will change background.</li>
+        <li style="color: blue; font-size: large;"> This ones attributes are changed inline for convinience</li>
+        <li>Every third in the list will be much larger, as the .odd-list class also has a parameter for nth-of-type(3n) as well</li>
+        <li style="font-weight: bolder;">This was adjusted inline using font-weight</li>
+        <li><a href="../Homepage/index.html">
+                <button class="twobutton" style="background-color: bisque; font-weight: bold;">
+                    These buttons are a part of the same class. [Click to Go Home]
+                </button>
+            </a></li>
+        <li><a href="htmltestpage5.html"><button class="twobutton" style="background-color: aliceblue; font-weight: 400;">They are also styled uniquely inline</button></a>& every third still applies, since it's still within the list.</li>     
+    <img class="avatar portrait" src="../../photos/landscape1.webp">
+    <br>
+    <br>
+    <img class="avatar landscape" src="../../photos/landscape2.webp">
+    <li>These Images have two classes each, one which sets their width "avatar" and another of two, for either portrait or landscape orientation.</li>   
+    <li><div class="divclasslines">These two lines are nested in a seperate div class individually.</div></li>
+    <li><div class="divclasslines"> By displaying the images (display : block;) as blocks and adding some margin, I'm able to display them to the right, and floating in the window. (float: right;)</div></li> 
+</ol>
+
 </body>
-</head>
+
 </html>
